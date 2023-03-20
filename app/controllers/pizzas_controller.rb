@@ -3,7 +3,7 @@ class PizzasController < ApplicationController
 
         def index 
             pizzas = Pizza.all 
-            render json: pizzas, status: :created
+            render json: pizzas, except: [:created_at, :updated_at], status: :created
         end
     private
     def render_not_found_response

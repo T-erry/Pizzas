@@ -9,6 +9,21 @@
     The following projects are created by:
     - Terry Wachuka
     - on 17/03/2023
+    
+####  System dependencies
+check GEMFILE
+
+#### Configuration
+- rails db:migrate 
+- rails server 
+
+#### Database creation
+- rails db:migrate 
+- rails server 
+
+#### Database initialization
+- sqlite in use , add extension on VS code.
+
 
 #### setup/installation requirements
 

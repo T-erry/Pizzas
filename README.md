@@ -57,4 +57,6 @@ As a user should;
     
 
 #### License and Copyright Information
+Licensed under [MT License] ("https://github.com/T-erry/Pizzas/blob/main/LICENSE.md") 
+
 

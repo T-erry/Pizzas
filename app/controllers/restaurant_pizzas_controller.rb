@@ -3,7 +3,7 @@ class RestaurantPizzasController < ApplicationController
     wrap_parameters format: []
     def create 
         restaurant_pizza = RestaurantPizza.create!(restaurant_pizza_params)
-        render json: restaurant_pizza, status: :created
+        render json: { success: 'Restaurant pizza created successfully', restaurant_pizza: restaurant_pizza }, status: :created
     end
     private
     def restaurant_pizza_params
